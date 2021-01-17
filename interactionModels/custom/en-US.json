@@ -1,0 +1,97 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "template ten",
+      "intents": [
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "MyNameIsIntent",
+          "slots": [
+            {
+              "name": "UserNameSlot",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "{UserNameSlot}",
+            "{UserNameSlot} is my name",
+            "my name is {UserNameSlot}",
+            "i am {UserNameSlot}",
+            "you can call me {UserNameSlot}"
+          ]
+        },
+        {
+          "name": "WhatsMyNameIntent",
+          "slots": [],
+          "samples": [
+            "do you know my name",
+            "tell me my name",
+            "tell my name",
+            "what\u0027s my name",
+            "repeat my name",
+            "what is my name"
+          ]
+        },
+        {
+          "name": "UpdateNameIntent",
+          "slots": [
+            {
+              "name": "NewNameSlot",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "new name is {NewNameSlot}",
+            "update name to {NewNameSlot}",
+            "change name to {NewNameSlot}",
+            "my new name is {NewNameSlot}",
+            "update my name to {NewNameSlot}",
+            "change my name to {NewNameSlot}"
+          ]
+        },
+        {
+          "name": "DeleteNameIntent",
+          "slots": [],
+          "samples": [
+            "delete name",
+            "delete name from database",
+            "delete my name from the database",
+            "remove my name from the database",
+            "delete",
+            "delete my name"
+          ]
+        }
+      ],
+      "types": [],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  },
+  "version": "3"
+}

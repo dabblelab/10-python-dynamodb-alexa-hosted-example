@@ -1,0 +1,68 @@
+{
+    "SKILL_NAME": "the Dabble Lab Dynamo DB example skill",
+    "FIRST_TIME_USER": [
+        "Welcome to {}. What's your name?"
+    ],
+    "FIRST_TIME_USER_REPROMPT": [
+        "What's your name?"
+    ],
+    "REPEAT_USER_GREETING": [
+        "Welcome back {}. You can ask me to repeat, update or delete your name. What would you like to do?"
+    ],
+    "REPEAT_USER_GREETING_REPROMPT": [
+        "What would you like to do?"
+    ],
+    "NAME_SAVED": [
+        "{}, I have successfully saved your name. You can now ask me to repeat, update or delete it. What would you like to do?"
+    ],
+    "NAME_SAVED_REPROMPT": [
+        "What would you like to do?"
+    ],
+    "TELL_NAME": [
+        "Your name is {}. What else would you like to do?"
+    ],
+    "TELL_NAME_REPROMPT": [
+        "What else would you like to do?"
+    ],
+    "NAME_UPDATED": [
+        "Your name has been updated to {}. You can now ask me to repeat, update or delete it. What would you like to do?"
+    ],
+    "NAME_UPDATED_REPROMPT": [
+        "What would you like to do?"
+    ],
+    "NO_NAME":[
+        "I don't know your name yet. What's your name?"
+    ],
+    "NO_NAME_REPROMPT":[
+        "What's your name?"
+    ],
+    "NAME_DELETED":[
+        "I've deleted your name from the database. What would you like to do now?"
+    ],
+    "NAME_DELETED_REPROMPT":[
+        "What would you like to do now?"
+    ],
+    "REPEAT": [
+      "I said... {}"
+    ],
+    "REPEAT_REPROMPT": [
+      "{}"
+    ],
+    "HELP": [
+      "This skill demonstrates how to read, write, update and add delete attribute values from dynamo DB."
+    ],
+    "HELP_REPROMPT": [
+      "This skill demonstrates how to read, write, update and add delete attribute values from dynamo DB."
+    ],
+    "FALLBACK": [
+      "Sorry, I didn't understand that. Can you please repeat that?"
+    ],
+    "FALLBACK_REPROMPT": [
+      "Can you say that again?"
+    ],
+    "CANCEL_STOP_RESPONSE": [
+      "Good Bye"
+    ],
+    "ERROR": "Sorry, I wasn't able to handle your last request. Could you say that again?",
+    "ERROR_REPROMPT": "Could you say that again?"
+}
